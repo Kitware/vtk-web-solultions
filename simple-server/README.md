@@ -6,7 +6,7 @@ __Server__
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -U pip
-pip install trame trame-vtk vtk
+pip install "trame<3.6" trame-vtk vtk
 ```
 
 __Client__
