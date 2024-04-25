@@ -50,7 +50,7 @@ We will still use trame but only for its server side by serving a locally built 
 ### Build client
 
 ```bash
-cd vue-client
+cd react-client
 npm install
 npm run build
 ```
