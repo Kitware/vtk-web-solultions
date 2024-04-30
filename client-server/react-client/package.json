@@ -10,10 +10,10 @@
         "preview": "vite preview"
     },
     "dependencies": {
-        "@kitware/vtk.js": "^28.12.5",
+        "@kitware/vtk.js": "^30.4.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "wslink": "^1.12.3"
+        "wslink": "^2.0.1"
     },
     "devDependencies": {
         "@types/react": "^18.2.18",

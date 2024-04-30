@@ -10,7 +10,7 @@ On top of **cxx-engine** we need to create a Python Virtual Environment for addi
 python3.9 -m venv .venv
 source ./.venv/bin/activate
 pip install -U pip
-pip install trame trame-vtk trame-vuetify numpy
+pip install "trame>=3.6.0" trame-vtk trame-vuetify numpy
 ```
 
 ## Trame only

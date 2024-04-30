@@ -25,7 +25,7 @@ class WebApp:
         self.ctrl = self.server.controller
 
         self.setup_vtk()
-        self.view = vtk.VtkRemoteView(self.render_window, trame_server=self.server)
+        self.view = vtk.VtkRemoteView(self.render_window, trame_server=self.server, ref='view')
 
     def setup_vtk(self):
         renderer = vtkRenderer()
